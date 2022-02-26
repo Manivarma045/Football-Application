@@ -22,30 +22,3 @@ function App() {
 
 export default App; 
 
-/*const App = () =>{
-  return(
-    <div className="tracker-body">
-      <h1 className="tracker-heading">Budjet Tracker</h1>
-      <div className="Total-amount">
-        <Totalamount />
-      </div>
-      <div className='remaining'>
-        <Remaining />
-
-      </div>
-      <div className='Expenses'>
-        <h1>Expenses</h1>
-        <Expenses />
-        
-      </div>
-      <div className='Add-expenses'>
-        <AddExpense />
-        
-      </div>
-      
-    </div>
-  )
-}
-
-
-export default App; */
