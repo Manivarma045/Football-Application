@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header-section{
+  width: 100%;
+  height: 15vh;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 47px;
+  font-weight: 600;
+}
+
+
+.content-section{
+  width: 100%;
+  min-height: 75vh;
+  margin-bottom: 5%;
+  
+}
+.footer-section{
+  width: 100%;
+  height: 10vh;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  
+}
+.tabs{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  margin-left: 420px;
+}
+
+.leagues-tabs{
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-right: 20px solid grey;
+  outline: none;
+  
+
+}
+.standings-tabs{
+  
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  
+}
+img{
+  width: 60%;
+  
+}
+.league-contents{
+  padding:10px;
+  border: 2px solid red;
+  outline: none;
+  cursor: pointer;
+ 
+  margin: 10px;
+}
+.leagues-data{
+  border: none;
+
+  outline: none;
+}
+.league-contents :hover{
+  border: 2px solid green;
+  transform: scale(1.2);
+
+
+}
+.league-section{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.standings-section{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+#select-league,#select-year{
+  border: 2px solid red;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.standings-list{
+  margin-left: 35%;
+  margin-top: 2%;
+  width: 30%;
+  margin-bottom: -1%;
+  overflow: hidden;
+  border: 2px solid red;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 10px;
+}
+.image-width{
+  width: 15%;
+  margin-right: 20px;
+}
+
